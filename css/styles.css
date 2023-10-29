@@ -1,0 +1,64 @@
+.text::before{
+    content: "SOY UN BEFORE";
+    color: red;
+    padding: 5px;
+}
+
+.text::after{
+    content: "SOY UN AFTER";
+    color: blue;
+}
+
+
+/* .saber{
+    width: 100px;
+    height: 100px;
+} */
+
+.image::before{
+    content: url(saber.jpg);
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin:auto;
+}
+
+.image{
+    display: block;
+}
+
+/* .image{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+} */
+.contenedor:after{
+    content:"";
+   background-color: black;
+   width: 100px;
+   height: 100px;
+   display: block;
+}
+
+.letter::first-letter{
+    color: red;
+    font-size: 150%;
+}
+
+.first::first-line {
+    color: blue;
+    text-transform: uppercase;
+
+}
+
+.first::first-letter{
+    color: red;
+    font-size: 150%;
+}
+
+
+
+
+
+
